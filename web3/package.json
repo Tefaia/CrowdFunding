@@ -6,15 +6,12 @@
     "release": "npx thirdweb@latest release"
   },
   "devDependencies": {
-    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
-    "hardhat": "^2.13.0",
-    "hardhat-deploy-ethers": "^0.4.1"
+    "hardhat": "^2.10.1"
+ 
   },
   "dependencies": {
     "@thirdweb-dev/contracts": "^3",
-    "dotenv": "^16.3.1",
-    "ethers": "^6.6.3",
-    "thirdweb": "^0.9.5",
-    "zksync-web3": "^0.14.3"
+    "dotenv": "^16.0.3"
+
   }
 }
