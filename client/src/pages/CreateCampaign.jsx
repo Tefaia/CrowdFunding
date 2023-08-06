@@ -25,6 +25,7 @@ const CreateCampaign = () => {
   }
 
   const handleSubmit = async (e) => {
+    console.log(form);
     e.preventDefault();
 
     checkIfImage(form.image, async (exists) => {
